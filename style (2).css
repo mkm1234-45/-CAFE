@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fffaf0;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #d2691e;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ffebcd;
+  }
+  
+  /* Fade-in effect for contact section */
+  .contact.fade-in {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .contact {
+    opacity: 0;
+  }
+  /* Header / Hero Section */
+  header {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: url('https://source.unsplash.com/1600x600/?cafe') center/cover no-repeat;
+    color: white;
+  }
+  
+  /* Menu Section */
+  .menu {
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .menu h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .card-body h4 {
+    margin: 0.5rem 0;
+  }
+  
+  .card-body a {
+    color: #d2691e;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: #fcebd5;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .contact h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #d2691e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
